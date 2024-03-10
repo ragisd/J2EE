@@ -1,0 +1,31 @@
+package com.jspiders.DSA;
+
+import java.util.Arrays;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		String str = "jhfds";
+		int flag = 0;
+		char[] arr;
+		String str2 = "";
+		
+		arr = str.replace("\\s+", "").toCharArray();
+		
+		if(arr != null){
+			for(int i = 0; i < arr.length; i++){
+				str2 += arr[i];
+			}
+			
+			if(str2.equals(str)){
+				flag = 1;
+			}
+			
+		if(flag == 1) {
+			System.out.println(str +" is palindrome string");
+		}
+		
+		}
+	}
+
+}

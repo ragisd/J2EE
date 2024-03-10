@@ -1,0 +1,10 @@
+package com.jspiders.hashmap.hashmap1;
+
+public class MaxOccuringCharInString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

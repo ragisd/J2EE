@@ -1,0 +1,21 @@
+package com.jspiders.hashmap.hashmap1;
+
+import java.util.HashMap;
+
+public class MaxOccuringCharInString {
+
+	public static void main(String[] args) {
+		
+		String str = "I would love to visit Japan.";
+		char[] charArray = str.replaceAll("\\s+", "").toCharArray();
+		
+		System.out.println(charArray);
+		
+		HashMap<Character, Integer> charCount = new HashMap<>();
+		
+		
+		
+		
+	}
+
+}

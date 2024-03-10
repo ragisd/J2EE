@@ -1,0 +1,10 @@
+package com.jspiders.hashmap.hashmap1;
+
+public class Hashmap1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

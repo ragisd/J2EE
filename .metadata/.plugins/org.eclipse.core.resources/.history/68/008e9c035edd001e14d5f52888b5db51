@@ -1,0 +1,10 @@
+package com.jspiders.cardekhowithservlets.jdbc;
+
+public class CarJDBC {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

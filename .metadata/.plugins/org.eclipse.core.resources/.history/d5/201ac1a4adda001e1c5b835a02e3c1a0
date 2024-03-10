@@ -1,0 +1,26 @@
+package com.jspiders.hashmap.hashmap1;
+
+import java.util.HashMap;
+
+public class Hashmap1 {
+
+	public static void main(String[] args) {
+		
+		HashMap<String, Integer> emps = new HashMap<String, Integer>();
+		
+		emps.put("john", 2345);
+		emps.put("carl", 9876);
+		emps.put("peter", 19832);
+		
+		System.out.println(emps);
+		
+		emps.put("cari", 2345);
+		emps.put("carl", 7777);
+
+		System.out.println(emps);
+		//values can be duplicated but keys cannot be duplicated
+		
+		System.out.println(emps.containsKey("john"));
+	}
+
+}
